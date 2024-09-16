@@ -1,0 +1,30 @@
+# tasks.yaml
+extract_tokens:
+  description: >
+    Extract the tokens from the moving average bot and store them.
+  expected_output: >
+    A list of tokens to be searched.
+
+search_token_data:
+  description: >
+    Search for information on the extracted tokens using the CoinGecko API.
+  expected_output: >
+    A dictionary of token data, including price, market cap, and 24hr change.
+
+generate_charts:
+  description: >
+    Generate price charts for the tokens based on the market data.
+  expected_output: >
+    A list of chart image files.
+
+perform_sentiment_analysis:
+  description: >
+    Perform sentiment analysis on market data for each token.
+  expected_output: >
+    A dictionary of sentiment analysis results for each token.
+
+generate_report:
+  description: >
+    Generate a detailed report based on the token data.
+  expected_output: >
+    A complete report summarizing the market data for each token.

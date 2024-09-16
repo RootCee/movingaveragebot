@@ -1,0 +1,1 @@
+Detailed report on token data, including technical indicators and sentiment analysis.
