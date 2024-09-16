@@ -124,3 +124,4 @@ Feel free to modify the settings to suit your trading strategies and always ensu
 - The `README.md` provides clear instructions for setting up the bot after cloning from a repository, including setting up the environment, running the bot, and understanding the key components of the code.
 - It explains the crucial elements like slippage, gas fees, ETH spent, and the purpose of the `.env` file for storing sensitive information.
 - Make sure to include all the necessary dependencies in a `requirements.txt` file so users can install them easily after cloning the repository.
+# movingaveragebot
